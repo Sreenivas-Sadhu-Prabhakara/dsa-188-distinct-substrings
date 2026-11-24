@@ -12,6 +12,13 @@ Every substring is a prefix of some suffix. Insert all n suffixes into a trie: i
 
 **Complexity:** O(n²) time and space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
